@@ -26,7 +26,7 @@ export async function login(req, res) {
         const user = await authService.login(identifier, password)  // identifier: username / email / phone
         const userToSaveInToken = userService.getTokenUser(user) 
         
-        loggerService.info(TAG, 'login()', `User login: `, userToSaveInToken)  
+        //loggerService.info(TAG, 'login()', `User login: `, userToSaveInToken)  
 
         const loginToken = authService.getLoginToken(userToSaveInToken)
         res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })

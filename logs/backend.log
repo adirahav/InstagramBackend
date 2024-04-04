@@ -7,3 +7,197 @@
 4.4.2024, 9:14:30 - INFO - server | listen() | Up and running on port 3031
 4.4.2024, 9:19:01 - INFO - auth.controller | login() | User login:  | {"_id":"660de67e5a5523ab58c774d6","contact":"demo@gmail.com","fullname":"Demo","username":"demo","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1712187013/mtmb2sd8cba7eb53zmgb.png","isAdmin":false,"lastSeen":"2024-04-04T06:00:55.480Z"}
 4.4.2024, 9:50:39 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 12:27:15 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 12:34:32 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 12:36:56 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 12:48:50 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 12:51:25 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 13:13:07 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 13:16:04 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 13:27:44 - INFO - auth.controller | login() | User login:  | {"_id":"65e9885d465f1e7de899e251","contact":"lucas@gmail.com","fullname":"Lucas Barbalucas","username":"lucas","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1709803618/fkm6vkpkluazlitfuy0j.jpg","isAdmin":false,"lastSeen":"2024-04-04T09:15:36.162Z"}
+4.4.2024, 13:30:49 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:40:41 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:40:41 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:40:41 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:40:41 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:41:04 - INFO - auth.controller | login() | User login:  | {"_id":"65fae2d4dbaabbad9f98c4bd","contact":"danielhagari@gmail.com","fullname":"Daniel Hagari","username":"danielhagari","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1710940951/kqveav8e8nt8cpxchzdi.jpg","isAdmin":false,"lastSeen":"2024-04-03T05:24:28.419Z"}
+4.4.2024, 13:44:17 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:44:19 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:44:51 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:44:51 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:44:51 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:44:51 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:45:26 - INFO - auth.controller | login() | User login:  | {"_id":"65fae4ccdbaabbad9f98c4c0","contact":"goldameir@gmail.com","fullname":"Golda Meir","username":"goldameir","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1710941399/w0sxrm0umgc3zweqxdhp.jpg","isAdmin":false,"lastSeen":"2024-03-31T20:43:02.387Z"}
+4.4.2024, 13:46:40 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:46:43 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:48:28 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 13:48:43 - ERROR - auth.service | login() | Had problems login user asicohen | {"code":400,"message":"Unknown user"}
+4.4.2024, 13:48:43 - ERROR - auth.controller | login() | Failed to login | {"code":400,"message":"Unknown user"}
+4.4.2024, 13:48:47 - INFO - auth.controller | login() | User login:  | {"_id":"65faebe3bf219072e94f5a9d","contact":"assicohen@gmail.com","fullname":"Assi Cohen","username":"assicohen","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/t_lucas/v1710943352/Asi_Cohen_verpam.jpg","isAdmin":false,"lastSeen":"2024-03-20T14:05:56.227Z"}
+4.4.2024, 13:49:06 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 13:49:07 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+4.4.2024, 14:01:17 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:01:17 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:01:17 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:01:17 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:01:36 - INFO - auth.controller | login() | User login:  | {"_id":"65e9885d465f1e7de899e251","contact":"lucas@gmail.com","fullname":"Lucas Barbalucas","username":"lucas","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1709803618/fkm6vkpkluazlitfuy0j.jpg","isAdmin":false,"lastSeen":"2024-04-04T10:30:49.382Z"}
+4.4.2024, 14:02:01 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:02:01 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:02:01 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:02:01 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 14:03:14 - INFO - auth.controller | login() | User login:  | {"_id":"65f62d337651fac755a305ee","contact":"carine@gmail.com","fullname":"Carine Goren","username":"carinegoren","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1710632250/jftopl6e75azqfrzrw20.jpg","isAdmin":false,"lastSeen":"2024-04-03T22:53:01.878Z"}
+4.4.2024, 14:07:01 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 14:07:37 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:26:34 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:26:52 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:26:57 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:27:38 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:27:47 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:34:08 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:37:30 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:38:05 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 16:38:43 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:38:55 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:52:22 - INFO - socket.service | setupSocketAPI()
+4.4.2024, 16:52:22 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:52:42 - INFO - socket.service | setupSocketAPI()
+4.4.2024, 16:52:42 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:53:04 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:53:07 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:53:11 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 16:53:11 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 16:53:11 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 16:53:11 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 16:53:28 - INFO - auth.controller | login() | User login:  | {"_id":"65e9885d465f1e7de899e251","contact":"lucas@gmail.com","fullname":"Lucas Barbalucas","username":"lucas","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1709803618/fkm6vkpkluazlitfuy0j.jpg","isAdmin":false,"lastSeen":"2024-04-04T13:52:56.396Z"}
+4.4.2024, 16:54:30 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:54:32 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 16:56:47 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:03:19 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:03:38 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:03:41 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:05:54 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:07:32 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:08:11 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:08:13 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:08:16 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:14:43 - INFO - socket.service | Sockets: (count: 0):
+4.4.2024, 17:14:43 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:15:04 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:31:41 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:31:50 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:33:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 17:33:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 17:33:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 17:33:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 17:35:57 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:35:59 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:08 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:09 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:11 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:13 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:15 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:36:27 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:43:02 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:43:45 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 17:44:23 - INFO - socket.service | emitToUser() | No active socket for user: lucas
+4.4.2024, 17:53:35 - INFO - socket.service | emitToUser() | No active socket for user: lucas
+4.4.2024, 18:17:53 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 18:19:29 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:19:29 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:19:29 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:19:29 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:27:11 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 18:33:32 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 18:33:35 - INFO - socket.service | io.on.connection | New connected socket [id: 5nrE-_5bBlKSuijrAAAB
+4.4.2024, 18:33:49 - INFO - socket.service | io.on.connection | New connected socket [id: cdmCSyouaGpaLLcyAAAD
+4.4.2024, 18:33:49 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: cdmCSyouaGpaLLcyAAAD]
+4.4.2024, 18:33:51 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: lucas socket [id: cdmCSyouaGpaLLcyAAAD]
+4.4.2024, 18:33:51 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 18:34:19 - INFO - socket.service | io.on.connection | New connected socket [id: 13yvdGxMc3YthzasAAAF
+4.4.2024, 18:34:19 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: 13yvdGxMc3YthzasAAAF]
+4.4.2024, 18:34:22 - INFO - socket.service | io.on.connection | New connected socket [id: UlmZyKgHra7Ag8MNAAAH
+4.4.2024, 18:34:22 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: UlmZyKgHra7Ag8MNAAAH]
+4.4.2024, 18:34:22 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: carinegoren socket [id: UlmZyKgHra7Ag8MNAAAH]
+4.4.2024, 18:34:50 - INFO - socket.service | socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE | New chat message from socket [id: 13yvdGxMc3YthzasAAAF], emitting to user {"from":"lucas","to":"carinegoren","txt":"aa","createdAt":"2024-04-04T15:34:50.864Z","conversationId":"65f8bf9cef23ab6f715d305c"}
+4.4.2024, 18:40:59 - INFO - socket.service | emitToUser() | Emiting event: notification-post-comment-added to user: carinegoren socket [id: UlmZyKgHra7Ag8MNAAAH]
+4.4.2024, 18:41:58 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 18:41:59 - INFO - socket.service | io.on.connection | New connected socket [id: y5O6iWMhE7vS3Kx_AAAJ
+4.4.2024, 18:41:59 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: y5O6iWMhE7vS3Kx_AAAJ]
+4.4.2024, 18:42:38 - INFO - socket.service | socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE | New chat message from socket [id: 13yvdGxMc3YthzasAAAF], emitting to user {"from":"lucas","to":"carinegoren","txt":"aaa","createdAt":"2024-04-04T15:42:38.810Z","conversationId":"65f8bf9cef23ab6f715d305c"}
+4.4.2024, 18:43:13 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: lucas socket [id: 13yvdGxMc3YthzasAAAF]
+4.4.2024, 18:43:26 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: lucas socket [id: 13yvdGxMc3YthzasAAAF]
+4.4.2024, 18:43:56 - WARN - openai.service | generatedPost() | Dummy content creation due to disabling free tier open ai | ReferenceError: OPENAI_API_KEY is not defined
+4.4.2024, 18:44:01 - WARN - openai.service | generatedPost() | Dummy content creation due to disabling free tier open ai | ReferenceError: OPENAI_API_KEY is not defined
+4.4.2024, 18:44:27 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:44:27 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:44:27 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:44:27 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 18:44:27 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 18:44:28 - INFO - socket.service | io.on.connection | New connected socket [id: RmfEumOOiILpWRvYAAAL
+4.4.2024, 18:59:05 - INFO - socket.service | emitToUser() | No active socket for user: garrykasparov
+4.4.2024, 18:59:17 - INFO - socket.service | emitToUser() | No active socket for user: garrykasparov
+4.4.2024, 18:59:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 18:59:31 - INFO - socket.service | io.on.connection | New connected socket [id: AJfUpak4BOumZVs8AAAN
+4.4.2024, 18:59:31 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: AJfUpak4BOumZVs8AAAN]
+4.4.2024, 18:59:31 - INFO - socket.service | emitToUser() | Emiting event: notification-post-comment-added to user: lucas socket [id: AJfUpak4BOumZVs8AAAN]
+4.4.2024, 18:59:45 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 18:59:46 - INFO - socket.service | io.on.connection | New connected socket [id: PEqMONax49IKhFV6AAAP
+4.4.2024, 18:59:46 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: PEqMONax49IKhFV6AAAP]
+4.4.2024, 19:00:50 - INFO - socket.service | socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE | New chat message from socket [id: PEqMONax49IKhFV6AAAP], emitting to user {"from":"lucas","to":"carinegoren","txt":"cccc","createdAt":"2024-04-04T16:00:50.260Z","conversationId":"65f8bf9cef23ab6f715d305c"}
+4.4.2024, 19:02:44 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: lucas socket [id: PEqMONax49IKhFV6AAAP]
+4.4.2024, 19:03:07 - WARN - openai.service | generatedPost() | Dummy content creation due to disabling free tier open ai | ReferenceError: OPENAI_API_KEY is not defined
+4.4.2024, 19:03:21 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:03:21 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:03:21 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:03:21 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:03:22 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:03:22 - INFO - socket.service | io.on.connection | New connected socket [id: oLz2WuM_gedm9e5YAAAR
+4.4.2024, 19:21:40 - INFO - socket.service | emitToUser() | No active socket for user: goldameir
+4.4.2024, 19:21:55 - INFO - socket.service | emitToUser() | No active socket for user: goldameir
+4.4.2024, 19:22:20 - INFO - socket.service | emitToUser() | No active socket for user: lucas
+4.4.2024, 19:22:48 - INFO - socket.service | socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE | New chat message from socket [id: oLz2WuM_gedm9e5YAAAR], emitting to user {"from":"lucas","to":"carinegoren","txt":"ssss","createdAt":"2024-04-04T16:22:48.855Z","conversationId":"65f8bf9cef23ab6f715d305c"}
+4.4.2024, 19:23:19 - WARN - openai.service | generatedPost() | Dummy content creation due to disabling free tier open ai | ReferenceError: OPENAI_API_KEY is not defined
+4.4.2024, 19:23:42 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:23:42 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:23:42 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:23:42 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 19:23:43 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:23:44 - INFO - socket.service | io.on.connection | New connected socket [id: 8Qgt7gpEvDC0oVPAAAAT
+4.4.2024, 19:47:17 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:47:17 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:47:18 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:51:52 - INFO - socket.service | io.on.connection | New connected socket [id: 4HIsbFRKE3uZCkSnAAAV
+4.4.2024, 19:51:53 - INFO - socket.service | io.on.connection | New connected socket [id: iSlWJmi6Lum7CNmMAAAY
+4.4.2024, 19:51:53 - INFO - socket.service | io.on.connection | New connected socket [id: -xWOVGajITJmTTL7AAAZ
+4.4.2024, 19:51:59 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:51:59 - INFO - socket.service | io.on.connection | New connected socket [id: ssvtctH7_poiu16BAAAb
+4.4.2024, 19:52:51 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 19:52:51 - INFO - socket.service | io.on.connection | New connected socket [id: RHnnZsCTcTXz-nCzAAAd
+4.4.2024, 19:52:51 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: RHnnZsCTcTXz-nCzAAAd]
+4.4.2024, 19:52:52 - INFO - socket.service | emitToUser() | Emiting event: notification-post-liked to user: carinegoren socket [id: RHnnZsCTcTXz-nCzAAAd]
+4.4.2024, 19:57:29 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 19:57:30 - INFO - socket.service | io.on.connection | New connected socket [id: KqIk13MeEPKEjb9qAAAB
+4.4.2024, 19:57:31 - INFO - socket.service | io.on.connection | New connected socket [id: MHaCvv4ZMaKC8H1zAAAE
+4.4.2024, 19:57:31 - INFO - socket.service | io.on.connection | New connected socket [id: SRDEUVUc9l6iY-paAAAF
+4.4.2024, 20:00:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:00:28 - INFO - socket.service | io.on.connection | New connected socket [id: 5r7Eyz7g213R-Ty6AAAH
+4.4.2024, 20:00:41 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:00:42 - INFO - socket.service | io.on.connection | New connected socket [id: GHzLeJY16NypwtyTAAAJ
+4.4.2024, 20:00:55 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:00:55 - INFO - socket.service | io.on.connection | New connected socket [id: Ta0yc6MCbRy7ys6VAAAL
+4.4.2024, 20:01:52 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:01:52 - INFO - socket.service | io.on.connection | New connected socket [id: Rl2zKwyhK3dDOfSYAAAN
+4.4.2024, 20:03:09 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:03:10 - INFO - socket.service | io.on.connection | New connected socket [id: bGwRDoYnjuxZW-k4AAAP
+4.4.2024, 20:04:46 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:04:46 - INFO - socket.service | io.on.connection | New connected socket [id: TF0isnXY3r20uOtlAAAR
+4.4.2024, 20:07:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:07:23 - INFO - socket.service | io.on.connection | New connected socket [id: q92Tf11Vq36X9E9AAAAT
+4.4.2024, 20:08:00 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 20:08:02 - INFO - socket.service | io.on.connection | New connected socket [id: HoVOdaLK9Ge2CXq9AAAD
+4.4.2024, 20:08:02 - INFO - socket.service | io.on.connection | New connected socket [id: VhGirsVlZrzzPvM9AAAE
+4.4.2024, 20:08:02 - INFO - socket.service | io.on.connection | New connected socket [id: nocLzh9prFFBjlCeAAAF
+4.4.2024, 20:08:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:13:25 - INFO - socket.service | io.on.connection | New connected socket [id: 5TQDOMaZ586ZgmaXAAAH
+4.4.2024, 20:13:33 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+4.4.2024, 20:15:01 - INFO - socket.service | io.on.connection | New connected socket [id: diNL5FiDYCJCp3VcAAAJ

@@ -30,11 +30,13 @@ export const socketService = {
 }
 
 export function setupSocketAPI(server) {
+    
     gIo = new Server(server, {
         cors: {
             origin: '*',
         }
     })
+    
     gIo.on('connection', socket => {
         loggerService.info(TAG, 'io.on.connection', `New connected socket [id: ${socket.id}`)
         
@@ -42,6 +44,10 @@ export function setupSocketAPI(server) {
             loggerService.info(TAG, 'socket.on.disconnect', `Socket disconnected [userId: ${socket.userId}]`)
         })
     
+        socket.on("connect_error", (err) => {
+            console.error(`connect_error due to ${err.message}`)
+          })
+
         socket.on(SOCKET_CHAT_NEW_PRIVATE_MESSAGE, async message => {
             loggerService.info(TAG, 'socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE', `New chat message from socket [id: ${socket.id}], emitting to user ${JSON.stringify(message)}`)
                 
