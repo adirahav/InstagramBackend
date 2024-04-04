@@ -1,1 +1,9 @@
 4.4.2024, 8:52:12 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 9:12:03 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 9:12:03 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 9:12:03 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 9:12:03 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+4.4.2024, 9:13:41 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 9:14:30 - INFO - server | listen() | Up and running on port 3031
+4.4.2024, 9:19:01 - INFO - auth.controller | login() | User login:  | {"_id":"660de67e5a5523ab58c774d6","contact":"demo@gmail.com","fullname":"Demo","username":"demo","profilePicture":"https://res.cloudinary.com/dn4zdrszh/image/upload/v1712187013/mtmb2sd8cba7eb53zmgb.png","isAdmin":false,"lastSeen":"2024-04-04T06:00:55.480Z"}
+4.4.2024, 9:50:39 - INFO - server | listen() | Up and running on port 3031
