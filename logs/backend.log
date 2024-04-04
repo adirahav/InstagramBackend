@@ -201,3 +201,12 @@
 4.4.2024, 20:13:25 - INFO - socket.service | io.on.connection | New connected socket [id: 5TQDOMaZ586ZgmaXAAAH
 4.4.2024, 20:13:33 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
 4.4.2024, 20:15:01 - INFO - socket.service | io.on.connection | New connected socket [id: diNL5FiDYCJCp3VcAAAJ
+4.4.2024, 21:32:46 - INFO - server | listen() | Up and running on port 3032
+4.4.2024, 21:32:49 - ERROR - auth.service | login() | Had problems login user lucas | {"code":400,"message":"Invalid username or password"}
+4.4.2024, 21:32:49 - ERROR - auth.controller | login() | Failed to login | {"code":400,"message":"Invalid username or password"}
+4.4.2024, 21:32:49 - INFO - socket.service | io.on.connection | New connected socket [id: iL_mEXgrViDTddc3AAAB
+4.4.2024, 21:32:49 - INFO - socket.service | io.on.connection | New connected socket [id: 4WDU52yY3RLfW8Q4AAAD
+4.4.2024, 21:32:50 - INFO - socket.service | io.on.connection | New connected socket [id: Y_BIta6mIBTZa1I3AAAF
+4.4.2024, 21:32:50 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: Y_BIta6mIBTZa1I3AAAF]
+4.4.2024, 21:33:00 - ERROR - auth.service | login() | Had problems login user lucas | {"code":400,"message":"Invalid username or password"}
+4.4.2024, 21:33:00 - ERROR - auth.controller | login() | Failed to login | {"code":400,"message":"Invalid username or password"}
