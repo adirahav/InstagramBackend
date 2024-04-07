@@ -31,6 +31,8 @@ export const userService = {
     getSuggestions,
     getFollowings,
     getProfile,
+    saveUnreadMessage,
+    unsaveReadMessage,
     getMiniUser,
     getTokenUser
 }
@@ -674,7 +676,7 @@ async function getProfile(loggedinUser, profileUsername) {
         const reels = []
 
         // saved
-        const saved = await postService.querySavedPosts(userProfile._id) 
+        const saved = await postService.querySavedPosts(userProfile) 
         
         // tagged
         const tagged = []
@@ -707,6 +709,63 @@ async function getProfile(loggedinUser, profileUsername) {
 
 //#endregion == profile ==================
 
+//#region == messages =================
+
+async function saveUnreadMessage(messageToSave) {
+    
+    try {
+        const collection = await dbService.getCollection(collectionName)
+        
+        const words = messageToSave.txt.split(' ')
+        const slicedText = words.slice(0, 4).join(' ')
+
+        await collection.updateOne(
+            {
+                username: messageToSave.to,
+                unreadMessages: {
+                    $not: {
+                        $elemMatch: {
+                            from: messageToSave.from,
+                            txt: { $ne: slicedText },                       // ignore
+                            createdAt: { $ne: messageToSave.createdAt }     // ignore
+                        }
+                    }
+                }
+            },
+            {
+                $addToSet: { unreadMessages: {
+                    from: messageToSave.from,
+                    txt: slicedText,               
+                    createdAt: messageToSave.createdAt,               
+                } 
+                }
+            }
+        )
+  
+        return messageToSave
+
+    } catch (err) {
+        loggerService.error(TAG, 'saveUnreadMessage()', `cannot update user has new message ${JSON.stringify(messageToSave)}`, err)
+    }
+}
+
+async function unsaveReadMessage(loggedinUser, from) {
+    try {
+        const collection = await dbService.getCollection(collectionName)
+        
+        await collection.updateOne(
+            { username: loggedinUser.username }, 
+            { $pull: { "unreadMessages": { "from": from } } }
+        )
+  
+        return from
+
+    } catch (err) {
+        loggerService.error(TAG, 'unsaveReadMessage()', `cannot update user has new message ${from}`, err)
+    }
+}
+
+//#endregion == messages =================
 
 function getMiniUser(user) {
     const miniUser =  {

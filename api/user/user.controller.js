@@ -174,3 +174,31 @@ export async function getProfile(req, res) {
         res.status(400).send(`Couldn't get user profile`)
     }  
 }
+
+// messages
+export async function saveUnreadMessage(req, res) {
+    const { from, txt, createdAt } = req.body
+    
+    const messageToSave = { from, txt, createdAt }
+    loggerService.debug(JSON.stringify(req.loggedinUser))
+    loggerService.debug(JSON.stringify(messageToSave))
+    try {
+        const user = await userService.saveUnreadMessage(req.loggedinUser, messageToSave)
+        res.send(user)
+    } catch(err) {
+        loggerService.error(TAG, 'saveUnreadMessage()', `Couldn't save unread message from loggedin user`, err)
+        res.status(400).send(`Couldn't save unread message from loggedin user`)
+    } 
+}
+
+export async function unsaveReadMessage(req, res) {
+    const { from } = req.body
+    
+    try {
+        const user = await userService.unsaveReadMessage(req.loggedinUser, from)
+        res.send(user)
+    } catch(err) {
+        loggerService.error(TAG, 'unsaveReadMessage()', `Couldn't unsave read message from loggedin user`, err)
+        res.status(400).send(`Couldn't unsave read message from loggedin user`)
+    } 
+}

@@ -11,9 +11,12 @@ var gIo = null
 const SOCKET_AUTH_EVENT_LOGIN = 'set-user-socket'
 const SOCKET_AUTH_EVENT_LOGOUT = 'unset-user-socket'
 
+// follower
+const SOCKET_EMIT_FOLLOWER_SET_ONLINE = 'follower-set-online'
+const SOCKET_EMIT_FOLLOWER_SET_OFFLINE = 'follower-set-offline'
+
 // chat
 const SOCKET_CHAT_NEW_PRIVATE_MESSAGE = 'chat-new-private-message'
-const SOCKET_CHAT_SET_ONLINE = 'chat-set-online'
 
 // notification
 export const SOCKET_EMIT_NOTIFICATION_POST_LIKED = 'notification-post-liked'
@@ -42,11 +45,16 @@ export function setupSocketAPI(server) {
         
         socket.on('disconnect', socket => {
             loggerService.info(TAG, 'socket.on.disconnect', `Socket disconnected [userId: ${socket.userId}]`)
+
+            // SEND 'OFFLINE' NOTIFICATION TO ALL MEMEBERS BUT THE USER
+            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_OFFLINE1')
+            emitTo(SOCKET_EMIT_FOLLOWER_SET_OFFLINE, { username: socket.username, isOnline: false }) 
+
         })
     
         socket.on("connect_error", (err) => {
             console.error(`connect_error due to ${err.message}`)
-          })
+        })
 
         socket.on(SOCKET_CHAT_NEW_PRIVATE_MESSAGE, async message => {
             loggerService.info(TAG, 'socket.on.SOCKET_CHAT_NEW_PRIVATE_MESSAGE', `New chat message from socket [id: ${socket.id}], emitting to user ${JSON.stringify(message)}`)
@@ -54,7 +62,14 @@ export function setupSocketAPI(server) {
             const toSocket = await _getUserSocket(message.to)
             
             if (toSocket) {
+                loggerService.info(TAG, 'toSocket', toSocket.username)
+                loggerService.info(TAG, 'message', JSON.stringify(message))
+            
                 toSocket.emit(SOCKET_CHAT_NEW_PRIVATE_MESSAGE, message)
+            }
+            else {
+                loggerService.info(TAG, 'saveUnreadMessage')
+                await userService.saveUnreadMessage(message)
             }
             
             try {
@@ -77,15 +92,17 @@ export function setupSocketAPI(server) {
             socket["fullname"] = user.fullname
             
             // SEND 'ONLINE' NOTIFICATION TO ALL MEMEBERS BUT THE USER
-            socket.broadcast.emit(SOCKET_CHAT_SET_ONLINE, { notification: true, username: socket.username, isOnline: true }) 
+            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_ONLINE2')
+            socket.broadcast.emit(SOCKET_EMIT_FOLLOWER_SET_ONLINE, { notification: true, username: socket.username, isOnline: true }) 
 
             checkIfHasNewNotification(user._id)
             
         })
 
         socket.on(SOCKET_AUTH_EVENT_LOGOUT, () => {
-            loggerService.info(TAG, 'socket.on.SOCKET_AUTH_EVENT_LOGOUT', `Removing socket.userId = ${user._id} ; socket.username = ${user.username} for socket [id: ${socket.id}]`)
-            socket.broadcast.emit(SOCKET_CHAT_SET_ONLINE, { notification: true, username: socket.username, isOnline: false }) 
+            loggerService.info(TAG, 'socket.on.SOCKET_AUTH_EVENT_LOGOUT', `Removing socket.userId = ${socket.userId} ; socket.username = ${socket.username} for socket [id: ${socket.id}]`)
+            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_OFFLINE2')
+            socket.broadcast.emit(SOCKET_EMIT_FOLLOWER_SET_OFFLINE, { notification: true, username: socket.username, isOnline: false }) 
             delete socket.userId
         })
 

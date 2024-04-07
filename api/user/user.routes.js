@@ -1,6 +1,6 @@
 import express from 'express'
 import { getUsers, getUser, addUser, updateUser, removeUser, followUser, unfollowUser, 
-    getNotifications, getSuggestions, getFollowings, getProfile } from './user.controller.js'
+    getNotifications, getSuggestions, getFollowings, getProfile, saveUnreadMessage, unsaveReadMessage } from './user.controller.js'
 import { requireAdmin, requireAuth } from '../auth/auth.middleware.js'
 import { requireYourself, requireNotYourself, updateLastSeen } from './user.middleware.js'
 
@@ -18,5 +18,7 @@ router.put('/:userId/unfollow', requireAuth, requireNotYourself, updateLastSeen,
 router.delete('/:userId', requireAuth, requireAdmin, removeUser)                                // delete
 router.get('/:username/profile', requireAuth, updateLastSeen, getProfile) 
 router.get('/:username/profile/:type', requireAuth, updateLastSeen, getProfile) 
+router.put('/saveUnreadMessage', requireAuth, saveUnreadMessage) 
+router.put('/unsaveReadMessage', requireAuth, unsaveReadMessage) 
 
 export const userRoutes = router

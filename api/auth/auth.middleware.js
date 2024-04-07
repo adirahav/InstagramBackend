@@ -6,7 +6,6 @@ import { ObjectId } from "mongodb"
 const TAG = "auth.middleware"
 
 export async function requireAuth(req, res, next) {
-        
     const loggedinUser = authService.validateToken(req.cookies.loginToken)
     
     if (!loggedinUser) {

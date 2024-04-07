@@ -84,7 +84,7 @@ export async function addPost(req, res) {
     
     const postToAdd = {
         createdBy: userService.getMiniUser(req.loggedinUser),
-        ...(media !== null && { media: media.map(({ url, type }) => ({ url, type })) }),
+        ...(media !== null && { media: media.map(({ url, width, height, type }) => ({ url, width, height, type })) }),
         ...(text !== null && { text }),
         
     }
