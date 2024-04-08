@@ -177,28 +177,48 @@ export async function getProfile(req, res) {
 
 // messages
 export async function saveUnreadMessage(req, res) {
-    const { from, txt, createdAt } = req.body
+    const { from, to, txt, createdAt } = req.body
+    const messageToSave = { from, to, txt, createdAt }
     
-    const messageToSave = { from, txt, createdAt }
-    loggerService.debug(JSON.stringify(req.loggedinUser))
-    loggerService.debug(JSON.stringify(messageToSave))
     try {
-        const user = await userService.saveUnreadMessage(req.loggedinUser, messageToSave)
+        const user = await userService.saveUnreadMessage(messageToSave)
         res.send(user)
     } catch(err) {
-        loggerService.error(TAG, 'saveUnreadMessage()', `Couldn't save unread message from loggedin user`, err)
-        res.status(400).send(`Couldn't save unread message from loggedin user`)
+        loggerService.error(TAG, 'saveUnreadMessage()', `Couldn't save unread message from ${from}`, err)
+        res.status(400).send(`Couldn't save unread message`)
     } 
 }
 
 export async function unsaveReadMessage(req, res) {
-    const { from } = req.body
-    
+    const { from, to, txt, createdAt } = req.body
+    const messageToUnsave = { from, to, txt, createdAt }
+
     try {
-        const user = await userService.unsaveReadMessage(req.loggedinUser, from)
+        const user = await userService.unsaveReadMessage(messageToUnsave)
         res.send(user)
     } catch(err) {
-        loggerService.error(TAG, 'unsaveReadMessage()', `Couldn't unsave read message from loggedin user`, err)
-        res.status(400).send(`Couldn't unsave read message from loggedin user`)
+        loggerService.error(TAG, 'unsaveReadMessage()', `Couldn't unsave read message from ${from}`, err)
+        res.status(400).send(`Couldn't unsave read message`)
+    } 
+}
+
+// notification
+export async function saveUnreadNotification(req, res) {
+    try {
+        const user = await userService.saveUnreadNotification(req.loggedinUser)
+        res.send(user)
+    } catch(err) {
+        loggerService.error(TAG, 'saveUnreadNotification()', `Couldn't save unread notification`, err)
+        res.status(400).send(`Couldn't save unread notification`)
+    } 
+}
+
+export async function unsaveReadNotification(req, res) {
+    try {
+        const user = await userService.unsaveReadNotification(req.loggedinUser)
+        res.send(user)
+    } catch(err) {
+        loggerService.error(TAG, 'unsaveReadNotification()', `Couldn't unsave read notification`, err)
+        res.status(400).send(`Couldn't unsave read notification`)
     } 
 }

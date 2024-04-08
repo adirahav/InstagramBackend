@@ -139,6 +139,7 @@ export async function likePost(req, res) {
 
     try {
         await postService.like(postId, {...likedBy, createdAt: new Date()})
+        loggerService.debug("AAA [controll]")
         _emitNotificationToPostOwner(SOCKET_EMIT_NOTIFICATION_POST_LIKED, postId)
         res.send(`post ${postId} liked`)
     } catch(err) {
@@ -280,6 +281,7 @@ export async function unlikeComment(req, res) {
 async function _emitNotificationToPostOwner(type, postId) {
     const post = await postService.getById(postId)
     const miniPost = postService.getMiniPost(post)
+    loggerService.debug("BBB")
     socketService.emitToUser({type, data: miniPost, user: post.createdBy}) 
 }
 

@@ -46,8 +46,7 @@ export function setupSocketAPI(server) {
         socket.on('disconnect', socket => {
             loggerService.info(TAG, 'socket.on.disconnect', `Socket disconnected [userId: ${socket.userId}]`)
 
-            // SEND 'OFFLINE' NOTIFICATION TO ALL MEMEBERS BUT THE USER
-            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_OFFLINE1')
+            // SEND 'OFFLINE' NOTIFICATION TO ALL MEMEBERS
             emitTo(SOCKET_EMIT_FOLLOWER_SET_OFFLINE, { username: socket.username, isOnline: false }) 
 
         })
@@ -92,33 +91,19 @@ export function setupSocketAPI(server) {
             socket["fullname"] = user.fullname
             
             // SEND 'ONLINE' NOTIFICATION TO ALL MEMEBERS BUT THE USER
-            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_ONLINE2')
             socket.broadcast.emit(SOCKET_EMIT_FOLLOWER_SET_ONLINE, { notification: true, username: socket.username, isOnline: true }) 
 
-            checkIfHasNewNotification(user._id)
+            //checkIfHasNewNotification(user._id)
             
         })
 
         socket.on(SOCKET_AUTH_EVENT_LOGOUT, () => {
             loggerService.info(TAG, 'socket.on.SOCKET_AUTH_EVENT_LOGOUT', `Removing socket.userId = ${socket.userId} ; socket.username = ${socket.username} for socket [id: ${socket.id}]`)
-            loggerService.info(TAG, 'socket.on.SOCKET_EMIT_FOLLOWER_SET_OFFLINE2')
             socket.broadcast.emit(SOCKET_EMIT_FOLLOWER_SET_OFFLINE, { notification: true, username: socket.username, isOnline: false }) 
             delete socket.userId
         })
 
     })
-}
-
-async function checkIfHasNewNotification(userId) {
-    const loggedinUser = await userService.getById(userId)
-    if (loggedinUser.newNotification) {
-        emitToUser({ 
-            type: loggedinUser.newNotification.type, 
-            data: loggedinUser.newNotification.data, 
-            user: loggedinUser
-        })
-        await userService.updateHasNewNotification(loggedinUser._id, null)
-    }
 }
 
 function emitTo({ type, data, label }) {
@@ -127,15 +112,15 @@ function emitTo({ type, data, label }) {
 }
 
 async function emitToUser({ type, data, user }) {
-    
+    loggerService.debug("CCC")
     const socket = await _getUserSocket(user.username)
 
-    if (socket) {
+    if (socket) {loggerService.debug("CCC [socket exist]")
         loggerService.info(TAG, 'emitToUser()', `Emiting event: ${type} to user: ${user.username} socket [id: ${socket.id}]`)
         socket.emit(type, data)
-    } else {
+    } else {loggerService.debug("CCC [socket not exist]")
         loggerService.info(TAG, 'emitToUser()', `No active socket for user: ${user.username}`)
-        await userService.updateHasNewNotification(user._id, { type, data })
+        await userService.saveUnreadNotification(user)
     }
 }
 

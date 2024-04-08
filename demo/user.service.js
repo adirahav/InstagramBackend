@@ -42,18 +42,19 @@ async function _getFollowNotifications(loggedinUser) {
         const collection = await dbService.getCollection(collectionName)
         var users = await collection.find().toArray()
 
-        if (!loggedinUser.following || loggedinUser.following.length === 0) {
+        if (!loggedinUser.following || !loggedinUser.following.length) {
             let followingSuggestions = []
             users.forEach(user => {
+                const { _id, username, profilePicture, following } = user
                 followingSuggestions.push({
-                        _id: user._id,
-                        username: user.username,
-                        profilePicture: user.profilePicture,
-                        following: user.following})
-                
+                    _id,
+                    username,
+                    profilePicture,
+                    following
+                })
             })
 
-            const followingSuggestionsArray = followingSuggestions
+            const followingSuggestionsList = followingSuggestions
                         .filter(user => user.following) 
                         .map(user => user.following.map(following => ({ 
                             type: 'follow', 
@@ -66,12 +67,12 @@ async function _getFollowNotifications(loggedinUser) {
                         }))) 
                         .flat()
 
-            const groupedData = Object.values(followingSuggestionsArray.reduce((acc, obj) => {
-                const key = obj._id
+            const groupedData = Object.values(followingSuggestionsList.reduce((acc, suggestion) => {
+                const key = suggestion._id
                     if (!acc[key]) {
-                        acc[key] = { ...obj, followBy: [obj.followBy] }
+                        acc[key] = { ...suggestion, followBy: [suggestion.followBy] }
                     } else {
-                        acc[key].followBy.push(obj.followBy)
+                        acc[key].followBy.push(suggestion.followBy)
                     }
                     return acc
             }, {}))
@@ -97,7 +98,9 @@ async function _getFollowNotifications(loggedinUser) {
                     _id: user._id,
                     username: user.username,
                     profilePicture: user.profilePicture,
-                    following: user.following})
+                    following: user.following
+                })
+            }
         })
 
         const followingByFollowersArray = followingByFollowers
@@ -223,20 +226,5 @@ async function _getNewPostCommentsNotifications(loggedinUser, posts) {
     } catch (err) {
         loggerService.error(TAG, '_getNewPostCommentsNotifications()', `Had problems getting new post comment notifications for user ${loggedinUser.username}`, err)
         throw `Had problems getting new post comment notifications`
-    }
-}
-
-async function updateHasNewNotification(userId, newNotification) {
-    
-    try {
-        const collection = await dbService.getCollection(collectionName)
-        await collection.updateOne(
-                            { _id: new ObjectId(userId) },     
-                            { $set: { newNotification } })
-                            
-        return newNotification
-
-    } catch (err) {
-        loggerService.error(TAG, 'updateHasNewNotification()', `cannot update user has new notification ${userId}`, err)
     }
 }

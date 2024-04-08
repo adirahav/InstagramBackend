@@ -22,7 +22,6 @@ export const userService = {
     add,
     update,
     updateLastSeen,
-    updateHasNewNotification,
     savePost,
     unsavePost,
     followUser,
@@ -33,6 +32,8 @@ export const userService = {
     getProfile,
     saveUnreadMessage,
     unsaveReadMessage,
+    saveUnreadNotification,
+    unsaveReadNotification,
     getMiniUser,
     getTokenUser
 }
@@ -492,18 +493,44 @@ async function _getNewPostCommentsNotifications(loggedinUser, posts) {
     }
 }
 
-async function updateHasNewNotification(userId, newNotification) {
+async function saveUnreadNotification(loggedinUser) {
     
     try {
         const collection = await dbService.getCollection(collectionName)
+        
         await collection.updateOne(
-                            { _id: new ObjectId(userId) },     
-                            { $set: { newNotification } })
-                            
-        return newNotification
+            {
+                username: loggedinUser.username,
+            },
+            {
+                $set: { unreadNotification: true }
+            }
+        )
+  
+        return { unreadNotification: true }
 
     } catch (err) {
-        loggerService.error(TAG, 'updateHasNewNotification()', `cannot update user has new notification ${userId}`, err)
+        loggerService.error(TAG, 'saveUnreadNotification()', `cannot update user has new notification`, err)
+    }
+}
+
+async function unsaveReadNotification(loggedinUser) {
+    try {
+        const collection = await dbService.getCollection(collectionName)
+        
+        await collection.updateOne(
+            {
+                username: loggedinUser.username,
+            },
+            {
+                $set: { unreadNotification: false }
+            }
+        )
+  
+        return { unreadNotification: false }
+
+    } catch (err) {
+        loggerService.error(TAG, 'unsaveReadMessage()', `cannot update user has read notification`, err)
     }
 }
 
@@ -749,19 +776,19 @@ async function saveUnreadMessage(messageToSave) {
     }
 }
 
-async function unsaveReadMessage(loggedinUser, from) {
+async function unsaveReadMessage(messageToUnsave) {
     try {
         const collection = await dbService.getCollection(collectionName)
         
         await collection.updateOne(
-            { username: loggedinUser.username }, 
-            { $pull: { "unreadMessages": { "from": from } } }
+            { username: messageToUnsave.to }, 
+            { $pull: { "unreadMessages": { "from": messageToUnsave.from } } }
         )
   
-        return from
+        return messageToUnsave
 
     } catch (err) {
-        loggerService.error(TAG, 'unsaveReadMessage()', `cannot update user has new message ${from}`, err)
+        loggerService.error(TAG, 'unsaveReadMessage()', `cannot update user has read message ${JSON.stringify(messageToUnsave)}`, err)
     }
 }
 
