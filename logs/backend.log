@@ -7072,3 +7072,38 @@
 9.4.2024, 7:44:06 - INFO - server | listen() | Up and running on port 3032
 9.4.2024, 7:44:07 - INFO - socket.service | io.on.connection | New connected socket [id: obawj9AJdge5XZOyAAAC
 9.4.2024, 7:44:07 - INFO - socket.service | io.on.connection | New connected socket [id: sfWBlN2yLa7k7VEZAAAD
+9.4.2024, 7:44:59 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 7:44:59 - INFO - socket.service | io.on.connection | New connected socket [id: p_I3gEDu_6O9Z0-CAAAB
+9.4.2024, 7:45:02 - INFO - socket.service | io.on.connection | New connected socket [id: 5hcmT3bw3-pYSHaUAAAD
+9.4.2024, 7:57:06 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:57:08 - INFO - socket.service | io.on.connection | New connected socket [id: bz-LNo6RvRzDJTZ0AAAF
+9.4.2024, 7:57:08 - INFO - socket.service | io.on.connection | New connected socket [id: B17fAWDJeikSTINdAAAH
+9.4.2024, 8:18:00 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 8:18:00 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 8:18:01 - INFO - socket.service | io.on.connection | New connected socket [id: KusZvzsN0_MVp_m5AAAJ
+9.4.2024, 8:18:01 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: KusZvzsN0_MVp_m5AAAJ]
+9.4.2024, 8:18:02 - INFO - socket.service | io.on.connection | New connected socket [id: Me80F02UT0hZYf5DAAAL
+9.4.2024, 8:18:26 - DEBUG - AAA [controll]
+9.4.2024, 8:18:26 - DEBUG - BBB
+9.4.2024, 8:18:26 - DEBUG - CCC [socket not exist]
+9.4.2024, 8:18:26 - DEBUG - CCC
+9.4.2024, 8:18:26 - INFO - socket.service | emitToUser() | No active socket for user: carinegoren
+9.4.2024, 8:18:49 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 8:18:50 - INFO - socket.service | io.on.connection | New connected socket [id: T9Cf4f2SmYop8eKiAAAN
+9.4.2024, 8:53:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 8:53:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 8:53:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 9:02:12 - INFO - socket.service | io.on.connection | New connected socket [id: c-gVs89enK6rSqxbAAAP
+9.4.2024, 9:09:40 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 10:24:49 - INFO - socket.service | io.on.connection | New connected socket [id: _XrrwRFJXQzVONy7AAAR
+9.4.2024, 10:24:53 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 10:32:58 - INFO - socket.service | io.on.connection | New connected socket [id: 96vdyU0l4rJUF9FqAAAT
+9.4.2024, 10:33:30 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 10:33:30 - INFO - socket.service | io.on.connection | New connected socket [id: rR2eqn-g8FBnWExuAAAV
+9.4.2024, 11:25:53 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 11:25:54 - INFO - socket.service | io.on.connection | New connected socket [id: lvDbtRos9Mt6hYfXAAAB
+9.4.2024, 11:37:18 - INFO - socket.service | io.on.connection | New connected socket [id: wTrOC4RDeC4c8pMdAAAD
+9.4.2024, 11:37:29 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: wTrOC4RDeC4c8pMdAAAD]
+9.4.2024, 11:38:11 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 11:38:12 - INFO - socket.service | io.on.connection | New connected socket [id: z4sKn_vY4PiQicVcAAAC
+9.4.2024, 11:38:12 - INFO - socket.service | io.on.connection | New connected socket [id: A9cp8MOCEwZmBt6VAAAD

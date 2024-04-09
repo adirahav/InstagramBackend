@@ -94,16 +94,17 @@ async function _getFollowNotifications(loggedinUser) {
         let followingByFollowers = []
         users.forEach(user => {
             if (loggedinUserFollowingIds.includes(String(user._id))) {
+                const { _id, username, profilePicture, following } = user
                 followingByFollowers.push({
-                    _id: user._id,
-                    username: user.username,
-                    profilePicture: user.profilePicture,
-                    following: user.following
+                    _id,
+                    username,
+                    profilePicture,
+                    following
                 })
             }
         })
 
-        const followingByFollowersArray = followingByFollowers
+        const followingByFollowersList = followingByFollowers
                     .filter(user => user.following) 
                     .map(user => user.following.map(following => ({ 
                         type: 'follow', 
@@ -116,12 +117,12 @@ async function _getFollowNotifications(loggedinUser) {
                     }))) 
                     .flat()
 
-        const groupedFollowers = Object.values(followingByFollowersArray.reduce((acc, obj) => {
-            const key = obj._id
+        const groupedFollowers = Object.values(followingByFollowersList.reduce((acc, follow) => {
+            const key = follow._id
                 if (!acc[key]) {
-                    acc[key] = { ...obj, followBy: [obj.followBy] }
+                    acc[key] = { ...follow, followBy: [follow.followBy] }
                 } else {
-                    acc[key].followBy.push(obj.followBy)
+                    acc[key].followBy.push(follow.followBy)
                 }
                 return acc
         }, {}))
