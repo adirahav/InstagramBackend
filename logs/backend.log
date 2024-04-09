@@ -6849,3 +6849,226 @@
 8.4.2024, 16:29:30 - INFO - socket.service | io.on.connection | New connected socket [id: EpMhi89t4yO6Nx_5AAAF
 8.4.2024, 16:29:30 - INFO - socket.service | io.on.connection | New connected socket [id: 7qXnHP9dg5WSVKx2AAAH
 8.4.2024, 16:29:31 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: 7qXnHP9dg5WSVKx2AAAH]
+8.4.2024, 17:46:53 - INFO - server | listen() | Up and running on port 3032
+8.4.2024, 17:46:53 - INFO - socket.service | io.on.connection | New connected socket [id: wsVoRETVQCTSqAdCAAAB
+8.4.2024, 17:46:53 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: wsVoRETVQCTSqAdCAAAB]
+8.4.2024, 17:46:53 - INFO - socket.service | io.on.connection | New connected socket [id: nnyZ8rFl1q3Ku1Z2AAAD
+8.4.2024, 17:46:53 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: nnyZ8rFl1q3Ku1Z2AAAD]
+8.4.2024, 17:46:59 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:46:59 - INFO - socket.service | io.on.connection | New connected socket [id: ubYFLTtM4WvavBMUAAAF
+8.4.2024, 17:47:00 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: ubYFLTtM4WvavBMUAAAF]
+8.4.2024, 17:47:01 - INFO - socket.service | io.on.connection | New connected socket [id: xhuNaRt5pnEwi023AAAH
+8.4.2024, 17:47:02 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:47:03 - INFO - socket.service | io.on.connection | New connected socket [id: 9F-7vkILEz8SC1O3AAAJ
+8.4.2024, 17:47:03 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 9F-7vkILEz8SC1O3AAAJ]
+8.4.2024, 17:47:04 - INFO - socket.service | io.on.connection | New connected socket [id: n2SdejmjOI2RiQWPAAAL
+8.4.2024, 17:47:56 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:47:57 - INFO - socket.service | io.on.connection | New connected socket [id: NI9UVF0CCNYUsEgYAAAN
+8.4.2024, 17:47:57 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: NI9UVF0CCNYUsEgYAAAN]
+8.4.2024, 17:47:58 - INFO - socket.service | io.on.connection | New connected socket [id: Rae0tOsQfdEDb4IZAAAP
+8.4.2024, 17:48:34 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:48:35 - INFO - socket.service | io.on.connection | New connected socket [id: pNbSjSYnw6fFIGDtAAAR
+8.4.2024, 17:48:35 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: pNbSjSYnw6fFIGDtAAAR]
+8.4.2024, 17:48:35 - INFO - socket.service | io.on.connection | New connected socket [id: WA2OHOHh8Orj3ssnAAAT
+8.4.2024, 17:50:36 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:50:36 - INFO - socket.service | io.on.connection | New connected socket [id: XNFnSpP8N-tAq_eOAAAV
+8.4.2024, 17:50:37 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: XNFnSpP8N-tAq_eOAAAV]
+8.4.2024, 17:50:38 - INFO - socket.service | io.on.connection | New connected socket [id: qDvTXX31VKPrtYHrAAAX
+8.4.2024, 17:51:21 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:51:23 - INFO - socket.service | io.on.connection | New connected socket [id: 8dWlwY6HjKETa3_rAAAZ
+8.4.2024, 17:51:28 - INFO - socket.service | io.on.connection | New connected socket [id: -0ZyjDTStsBz8nSjAAAb
+8.4.2024, 17:51:29 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: -0ZyjDTStsBz8nSjAAAb]
+8.4.2024, 17:51:43 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:51:43 - INFO - socket.service | io.on.connection | New connected socket [id: Q3c9SVoSRXCfL4DKAAAd
+8.4.2024, 17:51:43 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: Q3c9SVoSRXCfL4DKAAAd]
+8.4.2024, 17:51:44 - INFO - socket.service | io.on.connection | New connected socket [id: 91bUOMp8z2y1JFIUAAAf
+8.4.2024, 17:52:28 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:52:30 - INFO - socket.service | io.on.connection | New connected socket [id: Q_bOx2TGVFGVo_q1AAAh
+8.4.2024, 17:52:38 - INFO - socket.service | io.on.connection | New connected socket [id: OJUQ_uYb0WG-LuwWAAAj
+8.4.2024, 17:52:38 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: OJUQ_uYb0WG-LuwWAAAj]
+8.4.2024, 17:52:58 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:52:59 - INFO - socket.service | io.on.connection | New connected socket [id: q_uZiOBD2ktH0Y4vAAAl
+8.4.2024, 17:52:59 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: q_uZiOBD2ktH0Y4vAAAl]
+8.4.2024, 17:53:00 - INFO - socket.service | io.on.connection | New connected socket [id: ebSjzDweJ7IP0fGmAAAn
+8.4.2024, 17:53:32 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:53:32 - INFO - socket.service | io.on.connection | New connected socket [id: RMmJVI3FE1AIXU7hAAAp
+8.4.2024, 17:53:32 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: RMmJVI3FE1AIXU7hAAAp]
+8.4.2024, 17:53:33 - INFO - socket.service | io.on.connection | New connected socket [id: 9ZIPqjfuj_LbDOEJAAAr
+8.4.2024, 17:54:17 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:54:18 - INFO - socket.service | io.on.connection | New connected socket [id: xnl0DQp9bBxcYUPvAAAt
+8.4.2024, 17:54:33 - INFO - socket.service | io.on.connection | New connected socket [id: 6F9g7mMhdfsyNkrNAAAv
+8.4.2024, 17:54:33 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 6F9g7mMhdfsyNkrNAAAv]
+8.4.2024, 17:56:06 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:56:06 - INFO - socket.service | io.on.connection | New connected socket [id: dTVK4LP717R7Vpb_AAAx
+8.4.2024, 17:56:06 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: dTVK4LP717R7Vpb_AAAx]
+8.4.2024, 17:56:08 - INFO - socket.service | io.on.connection | New connected socket [id: Errr7GSIiCqeCkfxAAAz
+8.4.2024, 17:57:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:57:24 - INFO - socket.service | io.on.connection | New connected socket [id: 3CltSddQ6rqV50cUAAA1
+8.4.2024, 17:57:24 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 3CltSddQ6rqV50cUAAA1]
+8.4.2024, 17:57:25 - INFO - socket.service | io.on.connection | New connected socket [id: sVv1CMUSJ0CvVADHAAA3
+8.4.2024, 17:59:43 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 17:59:43 - INFO - socket.service | io.on.connection | New connected socket [id: _AC1Q43NamD0M_4xAAA5
+8.4.2024, 17:59:44 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: _AC1Q43NamD0M_4xAAA5]
+8.4.2024, 17:59:45 - INFO - socket.service | io.on.connection | New connected socket [id: I-hTQe_roI6O9HkJAAA7
+8.4.2024, 18:00:18 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:00:19 - INFO - socket.service | io.on.connection | New connected socket [id: XJQW1GeHds5hDnGUAAA9
+8.4.2024, 18:00:19 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: XJQW1GeHds5hDnGUAAA9]
+8.4.2024, 18:00:20 - INFO - socket.service | io.on.connection | New connected socket [id: vdKlXSMIGFuxuiN7AAA_
+8.4.2024, 18:00:34 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:00:34 - INFO - socket.service | io.on.connection | New connected socket [id: 7pHVLo9km6Whr1feAABB
+8.4.2024, 18:00:35 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 7pHVLo9km6Whr1feAABB]
+8.4.2024, 18:00:36 - INFO - socket.service | io.on.connection | New connected socket [id: CAHH5_aIo5f01bouAABD
+8.4.2024, 18:01:41 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:01:41 - INFO - socket.service | io.on.connection | New connected socket [id: Ct70PKzoHIlFcoK7AABF
+8.4.2024, 18:01:42 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: Ct70PKzoHIlFcoK7AABF]
+8.4.2024, 18:01:43 - INFO - socket.service | io.on.connection | New connected socket [id: eOLTifM5IUETxncGAABH
+8.4.2024, 18:01:53 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:01:53 - INFO - socket.service | io.on.connection | New connected socket [id: e08_rO6ivlmpU20LAABJ
+8.4.2024, 18:01:53 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: e08_rO6ivlmpU20LAABJ]
+8.4.2024, 18:01:55 - INFO - socket.service | io.on.connection | New connected socket [id: qkZ7eW5T4XPw66v4AABL
+8.4.2024, 18:02:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:02:14 - INFO - socket.service | io.on.connection | New connected socket [id: zGJIKNE3nTo2Mc2mAABN
+8.4.2024, 18:02:14 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: zGJIKNE3nTo2Mc2mAABN]
+8.4.2024, 18:02:15 - INFO - socket.service | io.on.connection | New connected socket [id: 561A0L_qqCA_3pYQAABP
+8.4.2024, 18:02:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:02:23 - INFO - socket.service | io.on.connection | New connected socket [id: dF_Aa6KG11HBU9JiAABR
+8.4.2024, 18:02:24 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: dF_Aa6KG11HBU9JiAABR]
+8.4.2024, 18:02:25 - INFO - socket.service | io.on.connection | New connected socket [id: Uuu2n2mtLZ9hAVRAAABT
+8.4.2024, 18:02:27 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:02:28 - INFO - socket.service | io.on.connection | New connected socket [id: LJnPQbNu1kNzfkB5AABV
+8.4.2024, 18:02:28 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: LJnPQbNu1kNzfkB5AABV]
+8.4.2024, 18:02:28 - INFO - socket.service | io.on.connection | New connected socket [id: OIigcEIf9iRBQ8-mAABX
+8.4.2024, 18:02:32 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:02:32 - INFO - socket.service | io.on.connection | New connected socket [id: dFaSrqFvzCHCGQVGAABZ
+8.4.2024, 18:02:33 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: dFaSrqFvzCHCGQVGAABZ]
+8.4.2024, 18:02:34 - INFO - socket.service | io.on.connection | New connected socket [id: GOzCiQ-Yh4cR97AHAABb
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:04:15 - INFO - socket.service | io.on.connection | New connected socket [id: EHfR96cDTjDPoXd-AABd
+8.4.2024, 18:04:15 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: EHfR96cDTjDPoXd-AABd]
+8.4.2024, 18:09:21 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 18:09:21 - INFO - socket.service | io.on.connection | New connected socket [id: ytHMkfuhV0vyYNl6AABf
+8.4.2024, 18:09:21 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: ytHMkfuhV0vyYNl6AABf]
+8.4.2024, 18:09:26 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGOUT | Removing socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: ytHMkfuhV0vyYNl6AABf]
+8.4.2024, 18:09:38 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: ytHMkfuhV0vyYNl6AABf]
+8.4.2024, 18:16:02 - INFO - socket.service | io.on.connection | New connected socket [id: ar8jEWrGq8X1evu8AABh
+8.4.2024, 18:42:48 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:06:57 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:06:57 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:06:58 - INFO - socket.service | io.on.connection | New connected socket [id: wk9ZBvYqxHVJcXJnAABk
+8.4.2024, 19:06:58 - INFO - socket.service | io.on.connection | New connected socket [id: v1M5PRbCP2cKtNunAABl
+8.4.2024, 19:07:02 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:07:02 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:35:18 - INFO - socket.service | io.on.connection | New connected socket [id: 5OSSxPosG2ChGzzjAABn
+8.4.2024, 19:35:20 - INFO - socket.service | io.on.connection | New connected socket [id: vBAWSsj8RLSPPSMmAABp
+8.4.2024, 19:41:35 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:41:35 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:45:44 - INFO - socket.service | io.on.connection | New connected socket [id: e_DD3urzrAtPQePCAABr
+8.4.2024, 19:45:44 - INFO - socket.service | io.on.connection | New connected socket [id: MfqjONCxbaSaztYMAABt
+8.4.2024, 19:54:04 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 19:54:04 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 20:13:21 - INFO - socket.service | io.on.connection | New connected socket [id: uZ_3U5m8tijTBTCYAABw
+8.4.2024, 20:13:23 - INFO - socket.service | io.on.connection | New connected socket [id: Wmesa_Y918hBrznQAABx
+8.4.2024, 20:18:36 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 20:18:36 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 22:36:41 - INFO - socket.service | io.on.connection | New connected socket [id: MgeovCyliQQ8qZ6jAAB0
+8.4.2024, 22:36:42 - INFO - socket.service | io.on.connection | New connected socket [id: wM-PbbKX9GBGMwxfAAB1
+8.4.2024, 22:48:02 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 22:48:02 - INFO - socket.service | io.on.connection | New connected socket [id: xFtBShXFx-pe_62zAAB3
+8.4.2024, 22:48:02 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: xFtBShXFx-pe_62zAAB3]
+8.4.2024, 22:48:03 - INFO - socket.service | io.on.connection | New connected socket [id: N8Q0i_RLCE3ubWUFAAB5
+8.4.2024, 22:53:08 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 22:53:10 - INFO - socket.service | io.on.connection | New connected socket [id: Mv07bOZEt0DbZAviAAB7
+8.4.2024, 22:53:10 - INFO - socket.service | io.on.connection | New connected socket [id: fCKtW9YjC_3AiAGLAAB9
+8.4.2024, 22:53:10 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: fCKtW9YjC_3AiAGLAAB9]
+8.4.2024, 22:54:20 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 22:54:22 - INFO - socket.service | io.on.connection | New connected socket [id: NPTsHLor48ZFoHxnAAB_
+8.4.2024, 22:56:01 - INFO - socket.service | io.on.connection | New connected socket [id: wtnCevBIDQnp4YEdAACB
+8.4.2024, 22:57:30 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 22:57:30 - INFO - socket.service | io.on.connection | New connected socket [id: JRpeGTzXPem7pwibAACD
+8.4.2024, 22:57:30 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: JRpeGTzXPem7pwibAACD]
+8.4.2024, 22:57:31 - INFO - socket.service | io.on.connection | New connected socket [id: eogdtZI1EKIiLQBGAACF
+8.4.2024, 23:02:00 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:02:02 - INFO - socket.service | io.on.connection | New connected socket [id: 236Z6WmFBfeLX2rcAACH
+8.4.2024, 23:02:07 - INFO - socket.service | io.on.connection | New connected socket [id: 0gFRaVdyZEegiaJXAACJ
+8.4.2024, 23:02:07 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 0gFRaVdyZEegiaJXAACJ]
+8.4.2024, 23:04:11 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:04:13 - INFO - socket.service | io.on.connection | New connected socket [id: N_zP5fmvbq_5PKgJAACL
+8.4.2024, 23:04:13 - INFO - socket.service | io.on.connection | New connected socket [id: 0ymuDFennVGrfKQbAACN
+8.4.2024, 23:11:32 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:11:33 - INFO - socket.service | io.on.connection | New connected socket [id: jWaOVxjt4u4_VQYcAACP
+8.4.2024, 23:11:33 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: jWaOVxjt4u4_VQYcAACP]
+8.4.2024, 23:11:34 - INFO - socket.service | io.on.connection | New connected socket [id: s8EhzAK5-V5gbjGAAACR
+8.4.2024, 23:42:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:42:23 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:07 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:08 - INFO - socket.service | io.on.connection | New connected socket [id: wWucO5qjSnZBrAOXAACU
+8.4.2024, 23:51:08 - INFO - socket.service | io.on.connection | New connected socket [id: tVG9vj-_0S0U9VRJAACV
+8.4.2024, 23:51:12 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+8.4.2024, 23:51:12 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 0:04:16 - INFO - socket.service | io.on.connection | New connected socket [id: NdOD0SsH7_xtaUSSAACY
+9.4.2024, 0:04:16 - INFO - socket.service | io.on.connection | New connected socket [id: 9bvbWPqzMpW8R36OAACZ
+9.4.2024, 0:10:30 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 0:10:31 - INFO - socket.service | io.on.connection | New connected socket [id: 7AxLeHBiDzZtQF40AACb
+9.4.2024, 0:10:31 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 7AxLeHBiDzZtQF40AACb]
+9.4.2024, 0:10:32 - INFO - socket.service | io.on.connection | New connected socket [id: LmFFCcvpEHnTeqX5AACd
+9.4.2024, 0:15:51 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 0:15:52 - INFO - socket.service | io.on.connection | New connected socket [id: b5I7LAjUR19ob_g5AACf
+9.4.2024, 0:15:53 - INFO - socket.service | io.on.connection | New connected socket [id: 7SlGwcp0cR1wFrXcAACh
+9.4.2024, 0:15:53 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 7SlGwcp0cR1wFrXcAACh]
+9.4.2024, 0:17:37 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 0:17:37 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 6:28:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 6:28:31 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:33:21 - INFO - socket.service | io.on.connection | New connected socket [id: ZO0yJ6FdKDnuHGbxAACj
+9.4.2024, 7:33:24 - INFO - socket.service | io.on.connection | New connected socket [id: 4i1LJCjA7zrMXQ_9AACl
+9.4.2024, 7:33:27 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:33:27 - INFO - socket.service | io.on.connection | New connected socket [id: xdayDvAp0FqJxOGDAACn
+9.4.2024, 7:33:28 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: xdayDvAp0FqJxOGDAACn]
+9.4.2024, 7:33:30 - INFO - socket.service | io.on.connection | New connected socket [id: UrvWDcRtzdyYIrsgAACp
+9.4.2024, 7:40:42 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:40:43 - INFO - socket.service | io.on.connection | New connected socket [id: BiD2w10s_OmV92SOAACr
+9.4.2024, 7:40:44 - INFO - socket.service | io.on.connection | New connected socket [id: dv2QKo7-5lntu3liAACt
+9.4.2024, 7:40:44 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: dv2QKo7-5lntu3liAACt]
+9.4.2024, 7:42:33 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:42:33 - INFO - socket.service | io.on.connection | New connected socket [id: 3jG6mOI_Xrt2AkwzAACv
+9.4.2024, 7:42:34 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 3jG6mOI_Xrt2AkwzAACv]
+9.4.2024, 7:42:35 - INFO - socket.service | io.on.connection | New connected socket [id: vgckG2MNrRYYLU-qAACx
+9.4.2024, 7:42:57 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGOUT | Removing socket.userId = 65f62d337651fac755a305ee ; socket.username = carinegoren for socket [id: 3jG6mOI_Xrt2AkwzAACv]
+9.4.2024, 7:42:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+9.4.2024, 7:42:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+9.4.2024, 7:42:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+9.4.2024, 7:42:57 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+9.4.2024, 7:42:57 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 7:42:58 - INFO - socket.service | io.on.connection | New connected socket [id: LncXcDo91W5Wr53LAACz
+9.4.2024, 7:42:59 - INFO - socket.service | io.on.connection | New connected socket [id: 6BzlOvNFYpG0J7tzAAC1
+9.4.2024, 7:44:06 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 7:44:07 - INFO - socket.service | io.on.connection | New connected socket [id: obawj9AJdge5XZOyAAAC
+9.4.2024, 7:44:07 - INFO - socket.service | io.on.connection | New connected socket [id: sfWBlN2yLa7k7VEZAAAD
