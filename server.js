@@ -58,7 +58,7 @@ app.get('/**', (req, res) => {
 // run server
 // ======================
 dotenv.config()
-const PORT = process.env.PORT || 3032
+const PORT = process.env.PORT || 3031
 
 server.listen(PORT, () => {
     loggerService.info(TAG, 'listen()', `Up and running on port ${PORT}`)

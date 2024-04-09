@@ -7236,3 +7236,49 @@
 9.4.2024, 23:08:05 - INFO - socket.service | io.on.connection | New connected socket [id: S0zNO95zQpkYaFUuAAA_
 9.4.2024, 23:42:42 - INFO - server | listen() | Up and running on port 3032
 9.4.2024, 23:42:43 - INFO - socket.service | io.on.connection | New connected socket [id: G6mQLHoFs5PlNpQhAAAB
+9.4.2024, 23:43:56 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 23:43:56 - INFO - socket.service | io.on.connection | New connected socket [id: egQTWHQO0hZ_WqCUAAAB
+9.4.2024, 23:46:06 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 23:46:07 - INFO - socket.service | io.on.connection | New connected socket [id: b1XYIfXwaK3SXhEnAAAB
+9.4.2024, 23:46:15 - INFO - server | listen() | Up and running on port 3032
+9.4.2024, 23:46:17 - INFO - socket.service | io.on.connection | New connected socket [id: gVq7F9gW1Ztq1tCsAAAB
+9.4.2024, 23:46:52 - INFO - server | listen() | Up and running on port 3031
+9.4.2024, 23:47:22 - INFO - socket.service | io.on.connection | New connected socket [id: R-g7YVkELxJYzpkKAAAB
+9.4.2024, 23:49:08 - ERROR - auth.service | login() | Had problems login user asicohen | {"code":400,"message":"Unknown user"}
+9.4.2024, 23:49:08 - ERROR - auth.controller | login() | Failed to login | {"code":400,"message":"Unknown user"}
+9.4.2024, 23:51:06 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+9.4.2024, 23:51:06 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+9.4.2024, 23:51:06 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+9.4.2024, 23:53:05 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: R-g7YVkELxJYzpkKAAAB]
+9.4.2024, 23:55:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+9.4.2024, 23:55:15 - INFO - socket.service | io.on.connection | New connected socket [id: EiYcvNRuGgsH0N8TAAAD
+9.4.2024, 23:55:15 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: EiYcvNRuGgsH0N8TAAAD]
+10.4.2024, 0:16:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:16:14 - INFO - socket.service | io.on.connection | New connected socket [id: UzxXut7R-5M1Td-0AAAF
+10.4.2024, 0:16:15 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: UzxXut7R-5M1Td-0AAAF]
+10.4.2024, 0:23:12 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:23:13 - INFO - socket.service | io.on.connection | New connected socket [id: xwGN6O6h2XxF5pclAAAH
+10.4.2024, 0:23:13 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: xwGN6O6h2XxF5pclAAAH]
+10.4.2024, 0:26:14 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:26:15 - INFO - socket.service | io.on.connection | New connected socket [id: fmTKy_DO3lemTUDMAAAJ
+10.4.2024, 0:26:15 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: fmTKy_DO3lemTUDMAAAJ]
+10.4.2024, 0:41:55 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:41:56 - INFO - socket.service | io.on.connection | New connected socket [id: q1SCBgZrUdditG1hAAAL
+10.4.2024, 0:41:56 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: q1SCBgZrUdditG1hAAAL]
+10.4.2024, 0:42:38 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:42:39 - INFO - socket.service | io.on.connection | New connected socket [id: TIbum2cpIsFmYklYAAAN
+10.4.2024, 0:42:39 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: TIbum2cpIsFmYklYAAAN]
+10.4.2024, 0:42:52 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:42:52 - INFO - socket.service | io.on.connection | New connected socket [id: gWrtAwJmwMxeSWFgAAAP
+10.4.2024, 0:42:53 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: gWrtAwJmwMxeSWFgAAAP]
+10.4.2024, 0:47:38 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGOUT | Removing socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: gWrtAwJmwMxeSWFgAAAP]
+10.4.2024, 0:47:38 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+10.4.2024, 0:47:38 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+10.4.2024, 0:47:38 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+10.4.2024, 0:47:38 - ERROR - auth.service | validateToken() | Invalid login token | Error: value must not be null or undefined
+10.4.2024, 0:47:38 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 0:47:39 - INFO - socket.service | io.on.connection | New connected socket [id: oBYni8ffk0NpNi6MAAAR
+10.4.2024, 0:49:05 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:49:06 - INFO - socket.service | io.on.connection | New connected socket [id: tSwTFxdIX9hty1IdAAAB
+10.4.2024, 0:49:21 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:49:22 - INFO - socket.service | io.on.connection | New connected socket [id: mJUq_2sb83Z0i8q0AAAB
