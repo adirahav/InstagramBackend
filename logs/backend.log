@@ -7282,3 +7282,50 @@
 10.4.2024, 0:49:06 - INFO - socket.service | io.on.connection | New connected socket [id: tSwTFxdIX9hty1IdAAAB
 10.4.2024, 0:49:21 - INFO - server | listen() | Up and running on port 3031
 10.4.2024, 0:49:22 - INFO - socket.service | io.on.connection | New connected socket [id: mJUq_2sb83Z0i8q0AAAB
+10.4.2024, 0:50:52 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:50:54 - INFO - socket.service | io.on.connection | New connected socket [id: zDihrp4clTLwucyJAAAB
+10.4.2024, 0:51:01 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:51:01 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:51:01 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:52:03 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:52:03 - INFO - socket.service | io.on.connection | New connected socket [id: ZOBj3VELkiU212yfAAAB
+10.4.2024, 0:52:07 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:52:07 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:52:07 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:52:49 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:52:49 - INFO - socket.service | io.on.connection | New connected socket [id: K26Y_slK_WMn1K67AAAB
+10.4.2024, 0:52:53 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:52:53 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:52:53 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:53:57 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:53:59 - INFO - socket.service | io.on.connection | New connected socket [id: kWaYYvLQsfoYG7l8AAAB
+10.4.2024, 0:54:04 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:54:04 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:54:04 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:54:15 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:54:16 - INFO - socket.service | io.on.connection | New connected socket [id: 67DC9OAYdcBvmpDdAAAB
+10.4.2024, 0:54:18 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:54:18 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:54:18 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:54:39 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:54:40 - INFO - socket.service | io.on.connection | New connected socket [id: n4GhC9VOLOZaNXcIAAAB
+10.4.2024, 0:54:42 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:54:42 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:54:42 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:54:54 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:54:54 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:54:54 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:57:28 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:57:29 - INFO - socket.service | io.on.connection | New connected socket [id: zUBEpmtmoMAL_gz3AAAB
+10.4.2024, 0:57:32 - ERROR - user.service | getNotifications() | Had problems getting notifications for user hanannagar | Had problems getting new post like notifications
+10.4.2024, 0:57:32 - ERROR - user.service | _getNewPostLikesNotifications() | Had problems getting new post like notifications for user hanannagar | TypeError: Cannot read properties of undefined (reading 'username')
+10.4.2024, 0:57:32 - ERROR - user.controller | getNotifications() | Couldn't get user notifications | Had problems getting notifications
+10.4.2024, 0:58:14 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:58:16 - INFO - socket.service | io.on.connection | New connected socket [id: sBCeImv26b6zEN16AAAB
+10.4.2024, 0:59:55 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 0:59:56 - INFO - socket.service | io.on.connection | New connected socket [id: 778ZnoFUGr1lS6c3AAAB
+10.4.2024, 1:02:17 - INFO - server | listen() | Up and running on port 3031
+10.4.2024, 1:02:18 - INFO - socket.service | io.on.connection | New connected socket [id: AaDVsH4d8Y_Nl9uWAAAB
+10.4.2024, 1:02:30 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+10.4.2024, 1:02:34 - INFO - socket.service | io.on.connection | New connected socket [id: -66NyIZ6UZi-7AdDAAAD
+10.4.2024, 1:03:09 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: -66NyIZ6UZi-7AdDAAAD]

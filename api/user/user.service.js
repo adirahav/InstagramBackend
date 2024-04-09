@@ -435,26 +435,31 @@ async function _getNewPostLikesNotifications(loggedinUser, posts) {
     
     try {
         const groupedPostLiked = []
-        for (const post of posts.likes) {
+        
+        if (posts.likes) {
+            for (const post of posts.likes) {
             
-            const liked = post.likes.filter(like => like.username !== loggedinUser.username)
-                                    .sort((a, b) => new Date(b.createdAt ?? 0) - new Date(a.createdAt ?? 0))
-            
-            const postWithLikes = {
-                type: "new_post_like",
-                _id: post._id,
-                username: liked[0].username,
-                media: post.media[0],
-                text: post.text.substring(0, 20) + '...',
-                likes: [...new Set(liked.map(like => like.username))],
-                profilePicture:  liked[0].profilePicture,
-                notifyAt: liked[0].createdAt
-                
-            }
+                const liked = post.likes.filter(like => like.username !== loggedinUser.username)
+                                        .sort((a, b) => new Date(b.createdAt ?? 0) - new Date(a.createdAt ?? 0))
 
-            groupedPostLiked.push(postWithLikes)
+                if (liked.length > 0) {
+                    const postWithLikes = {
+                        type: "new_post_like",
+                        _id: post._id,
+                        username: liked[0].username,
+                        media: post.media[0],
+                        text: post.text.substring(0, 20) + '...',
+                        likes: [...new Set(liked.map(like => like.username))],
+                        profilePicture:  liked[0].profilePicture,
+                        notifyAt: liked[0].createdAt
+                        
+                    }
+        
+                    groupedPostLiked.push(postWithLikes)
+                }
+            }    
         }
-
+        
         return groupedPostLiked
     } catch (err) {
         loggerService.error(TAG, '_getNewPostLikesNotifications()', `Had problems getting new post like notifications for user ${loggedinUser.username}`, err)
@@ -466,24 +471,28 @@ async function _getNewPostCommentsNotifications(loggedinUser, posts) {
     
     try {
         const groupedPostCommented = []
-        for (const post of posts.comments) {
-            
-            const commented = post.comments.filter(comment => comment.createdBy.username !== loggedinUser.username)
-                                    .sort((a, b) => new Date(b.createdAt ?? 0) - new Date(a.createdAt ?? 0))
-            
-            const postWithComments = {
-                type: "new_post_comment",
-                _id: post._id,
-                username: commented[0].createdBy.username,
-                media: post.media[0],
-                text: commented[0].comment.substring(0, 20) + '...',
-                comments: [...new Set(commented.map(comment => comment.createdBy.username))],
-                profilePicture:  commented[0].createdBy.profilePicture,
-                notifyAt: commented[0].createdAt
-                
-            }
 
-            groupedPostCommented.push(postWithComments)
+        if (posts.comments) {
+            for (const post of posts.comments) {
+            
+                const commented = post.comments.filter(comment => comment.createdBy.username !== loggedinUser.username)
+                                        .sort((a, b) => new Date(b.createdAt ?? 0) - new Date(a.createdAt ?? 0))
+                
+                if (commented.length > 0) {
+                    const postWithComments = {
+                        type: "new_post_comment",
+                        _id: post._id,
+                        username: commented[0].createdBy.username,
+                        media: post.media[0],
+                        text: commented[0].comment.substring(0, 20) + '...',
+                        comments: [...new Set(commented.map(comment => comment.createdBy.username))],
+                        profilePicture:  commented[0].createdBy.profilePicture,
+                        notifyAt: commented[0].createdAt
+                    }
+
+                    groupedPostCommented.push(postWithComments)
+                }
+            }
         }
 
         return groupedPostCommented
