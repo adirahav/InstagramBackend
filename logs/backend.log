@@ -1,0 +1,16 @@
+11.4.2024, 19:38:29 - INFO - server | listen() | Up and running on port 3031
+11.4.2024, 19:38:33 - INFO - socket.service | io.on.connection | New connected socket [id: s0xAMFso2fmmmeV0AAAB
+11.4.2024, 19:38:58 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 19:39:03 - INFO - socket.service | io.on.connection | New connected socket [id: 9sMe2azqUjBsQ7nCAAAD
+11.4.2024, 19:39:03 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: 9sMe2azqUjBsQ7nCAAAD]
+11.4.2024, 19:41:48 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 19:41:49 - INFO - socket.service | io.on.connection | New connected socket [id: tEYRwksI6oOOe4uKAAAF
+11.4.2024, 19:41:49 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: tEYRwksI6oOOe4uKAAAF]
+11.4.2024, 19:59:08 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 19:59:09 - INFO - socket.service | io.on.connection | New connected socket [id: 9ICCpnZXHkSGlYd7AAAH
+11.4.2024, 19:59:09 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: 9ICCpnZXHkSGlYd7AAAH]
+11.4.2024, 20:01:01 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 20:01:01 - INFO - socket.service | io.on.connection | New connected socket [id: J7JvLS7CY02BB1xmAAAJ
+11.4.2024, 20:01:01 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: J7JvLS7CY02BB1xmAAAJ]
+11.4.2024, 20:03:54 - INFO - server | listen() | Up and running on port 3031
+11.4.2024, 20:03:55 - INFO - socket.service | io.on.connection | New connected socket [id: JzEb3dw2VmnZWxWYAAAB
