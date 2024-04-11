@@ -14,3 +14,15 @@
 11.4.2024, 20:01:01 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: J7JvLS7CY02BB1xmAAAJ]
 11.4.2024, 20:03:54 - INFO - server | listen() | Up and running on port 3031
 11.4.2024, 20:03:55 - INFO - socket.service | io.on.connection | New connected socket [id: JzEb3dw2VmnZWxWYAAAB
+11.4.2024, 20:16:15 - INFO - server | listen() | Up and running on port 3031
+11.4.2024, 20:16:23 - INFO - socket.service | io.on.connection | New connected socket [id: e6joIIFdmRNMWKJ2AAAB
+11.4.2024, 20:16:24 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: e6joIIFdmRNMWKJ2AAAB]
+11.4.2024, 20:16:45 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 20:16:45 - INFO - socket.service | io.on.connection | New connected socket [id: ofpVs0KvsNzoB8_pAAAD
+11.4.2024, 20:16:46 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: ofpVs0KvsNzoB8_pAAAD]
+11.4.2024, 20:16:57 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 20:16:57 - INFO - socket.service | io.on.connection | New connected socket [id: jPByAFsgSeXaMRPXAAAF
+11.4.2024, 20:16:57 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: jPByAFsgSeXaMRPXAAAF]
+11.4.2024, 20:17:43 - INFO - socket.service | socket.on.disconnect | Socket disconnected [userId: undefined]
+11.4.2024, 20:17:43 - INFO - socket.service | io.on.connection | New connected socket [id: 9j6nsU-QgCloyx7lAAAH
+11.4.2024, 20:17:44 - INFO - socket.service | socket.on.SOCKET_AUTH_EVENT_LOGIN | Setting socket.userId = 65e9885d465f1e7de899e251 ; socket.username = lucas for socket [id: 9j6nsU-QgCloyx7lAAAH]
