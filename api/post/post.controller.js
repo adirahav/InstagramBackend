@@ -139,7 +139,6 @@ export async function likePost(req, res) {
 
     try {
         await postService.like(postId, {...likedBy, createdAt: new Date()})
-        loggerService.debug("AAA [controll]")
         _emitNotificationToPostOwner(SOCKET_EMIT_NOTIFICATION_POST_LIKED, postId)
         res.send(`post ${postId} liked`)
     } catch(err) {
