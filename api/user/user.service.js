@@ -7,7 +7,7 @@ import { conversationService } from "../conversation/conversation.service.js"
 import { socketService } from "../../services/socket.service.js"
 
 const TAG = "user.service"
-const MISSING_PROFILE_PICTURE_URL = "https://res.cloudinary.com/dn4zdrszh/image/upload/v1708020687/missing-avatar_sowwel.jpg"
+const MISSING_PROFILE_PICTURE_URL = "https://res.cloudinary.com/do5lkisxf/image/upload/v1713898223/missing-avatar_wz27qf.jpg"
 let { ObjectId } = mongoDB
 const collectionName = 'user'
 const postCollectionName = 'post'
