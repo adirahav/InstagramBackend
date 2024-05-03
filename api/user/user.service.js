@@ -715,7 +715,7 @@ async function getProfile(loggedinUser, profileUsername) {
         const saved = await postService.querySavedPosts(userProfile) 
         
         // tagged
-        const tagged = []
+        const tagged = await postService.queryByTagged(userProfile.username)
         
         delete userProfile.password
         delete userProfile.isAdmin

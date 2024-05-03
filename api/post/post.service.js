@@ -9,6 +9,7 @@ export const postService = {
     queryLatestLikesAndComments,
     queryExplore,
     queryByCreatorId,
+    queryByTagged,
     queryByTag,
     querySavedPosts,
     getById,
@@ -412,6 +413,27 @@ async function queryByCreatorId(creatorId) {
         const collection = await dbService.getCollection(collectionName)
         const posts = await collection
             .find({ $or: [{ 'createdBy._id': String(creatorId)}, { 'createdBy._id': new ObjectId(creatorId)}] })
+            .sort({ _id: -1 })
+            .toArray()
+        
+        return posts
+    } catch (err) {
+        loggerService.error(TAG, 'queryByCreatorId()', `Had problems getting user posts`, err)
+        throw `Had problems getting user posts`
+    }
+}
+
+async function queryByTagged(username) {
+    
+    try {
+        const regexUsername = new RegExp(`@${username}(?: |$)`, 'i')
+        
+        const collection = await dbService.getCollection(collectionName)
+        const posts = await collection
+            .find({ $or: [
+                        { 'text':  { $regex: regexUsername } }, 
+                        { 'comments.comment':  { $regex: regexUsername } }
+                    ] })
             .sort({ _id: -1 })
             .toArray()
         
